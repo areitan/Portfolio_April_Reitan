@@ -1,0 +1,10 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(142, 142, 199, 0.432);
+    color: rgb(55, 44, 117);
+    }
+
+.april {
+    color: rgb(194, 39, 168);
+}
