@@ -1,10 +1,47 @@
+/* Sets main body attributes */
 .body {
     display: flex;
     flex-direction: column;
     background-color: rgba(142, 142, 199, 0.432);
     color: rgb(55, 44, 117);
+    font-family: Arial, Helvetica, sans-serif;
     }
 
+.header nav {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}    
+
+/* Removes bullets from nav link list */
+.header nav ul {
+    list-style-type: none;
+}
+
+/* Sets position of navigation links */
+.header nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+    }
+
+/* Set link text styling  */
+a {
+    color: rgb(194, 39, 168);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Sets name color in header */
 .april {
     color: rgb(194, 39, 168);
+}
+
+/* Sets contact info color in footer */
+#contact {
+    color: rgb(194, 39, 168);
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
 }
