@@ -7,11 +7,11 @@
     <!--Link to css style sheet-->
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
-
   <body class="body">
     <!-- Header contains logo and navigation inside page -->
     <header class="header">
-        <h1>Welcome to <span class="april">April Reitan</span>'s Portfolio</h1>
+        <img src="./assets/images/pic.jpg" alt="Hi! I'm April!"/>
+        <h1>Welcome to April Reitan's Portfolio</h1>
         <nav>
         <!-- Internal navigation links -->
             <ul>
@@ -19,48 +19,60 @@
                     <a href="#about-me" >About Me</a>
                 </li>
                 <li>
-                    <a href="#work">My Work</a>
+                    <a href="#work">Work</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact Me</a>
+                    <a href="#contact-me">Contact Me</a>
                 </li>
             </ul>
         </nav>
     </header>
-
     <!--Main content -->
-    <main class="content">
-        <img src="./assets/images/pic.jpg" alt="Hi! I'm April!"/>
-            <figcaption>Hi! I'm April!</figcaption>
+    <main>
+        <div class="grid">
         <section id="about-me">
+            <div class="about-me">
             <h2>About Me</h2>
-            <p>
-                I have worked in cancer research for 16 years. For 11 of those years, I worked on studies from the database user side. About 5 years ago, I was asked to join the data team.
-            </p>
-            <p>In that time I have learned a lot, but I always want to learn more. I have seen our studies go from paper-based questionnaires to electronic questionnaires administerd by interviewers, and now to being accessable to particiants online.</p>
-            <p></p>
+            <p>I have worked in cancer research for 16 years. For 11 of those years, I worked on studies from the database user side. About 5 years ago, I was asked to join the data team. In that time I have learned a lot, but I always want to learn more. I have seen our studies go from paper-based questionnaires to electronic questionnaires administerd by interviewers, and now to being accessable to particiants online.</p>
+            </div>
         </section>
-        <section id="work">
-            <h2>My Work</h2>
-            <p>
-                This will be a grid of repositories.
-            </p>
-        </section>
-        
+        <section>
+            <div class="work">
+            <h2 id="work">Work</h2>
+            </div>
+            <h3>Semantic Markup</h3>
+                <div class="grid-item1">
+                    <a href="https://areitan.github.io/SemanticMarkup/"><img alt="Semantic Markup" src="./assets/images/Accessible_Wesite_Display.png"></a>
+                </div>
+            <h3>Portfolio</h3>
+                <div class="grid-item2">
+                    <a href="https://github.com/areitan/Portfolio_April_Reitan"><img alt="Portfolio" src="./assets/images/pexels-pixabay-210243.jpg"></a>
+                </div>
+            <h3>Future Repository 1</h3>
+                <div class="grid-item3">
+                    <a href="https://github.com/areitan/Portfolio_April_Reitan"><img alt="Future Repository 1" src="./assets/images/pexels-ali-kazal-10772348.jpg"></a>
+                </div>
+            <h3>Future Repository 2</h3>
+                <div class="grid-item4">
+                    <a href="https://github.com/areitan/Portfolio_April_Reitan"><img alt="Future Repository 2" src="./assets/images/pexels-julius-silver-870711.jpg"></a>
+                </div>
+            <h3>Future Repository 3</h3>
+                <div class="grid-item5">
+                    <a href="https://github.com/areitan/Portfolio_April_Reitan"><img alt="Future Repository 3" src="./assets/images/pexels-mikhail-nilov-6526177.jpg"></a>
+                </div>
+        </section>    
     </main>
-    </div>
-    <footer id="contact">
-        <h2>Contact Me</h2>
-        <p>
-            &#x263A; April Reitan
-        </p>
-        <p>
-            &#9742; Phone: 253-508-1957
-        </p>
-        <p>
-            &#9993; Email: areitan@fredhutch.org
-        </p>
+    <footer>
+        <div class="contact-me">
+        <h2 id="contact-me">Contact Me</h2>
+        <!-- </div> -->
+            <!-- <div class="contact-info"> -->
+                <p><a href="mailto:areitan@fredhutch.org">areitan@fredhutch.org</a></p>
+                <p><a href="https://github.com/areitan">GitHub</a></p>
+            </div>
     </footer>
+
+        </div>
   </body>
 
 </html>

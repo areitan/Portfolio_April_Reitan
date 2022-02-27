@@ -1,21 +1,40 @@
+
 /* Sets main body attributes */
 .body {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(142, 142, 199, 0.432);
-    color: rgb(55, 44, 117);
     font-family: Arial, Helvetica, sans-serif;
-    }
+}
 
-.header nav {
+.header {
+    width: 100%;
+    height: 20%;
+    background-image: url("../images/pexels-rovenimagescom-949587.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav flex */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styles nav links */
+.header h1 nav {
     font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    font-family: Arial, Helvetica, sans-serif;
 }    
 
 /* Removes bullets from nav link list */
 .header nav ul {
-    list-style-type: none;
+     list-style-type: none;
 }
 
 /* Sets position of navigation links */
@@ -24,24 +43,76 @@
     margin-right: 50px;
     }
 
-/* Set link text styling  */
-a {
-    color: rgb(194, 39, 168);
+/* Set link text styling nav links  */
+nav a {
     text-decoration: underline;
-    font-weight: bold;
+    font-size: 25px;
+    color: white;
 }
 
-/* Sets name color in header */
-.april {
-    color: rgb(194, 39, 168);
+/* Set h2 font size */
+h2 {
+    font-size: 300%;
 }
 
-/* Sets contact info color in footer */
-#contact {
-    color: rgb(194, 39, 168);
-}
+/* Set h3 text position
+h3 {
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    font-size: 20px;
+} */
 
 img {
     max-width: 400px;
     max-height: 400px;
 }
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px   
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.grid-item1 {
+    flex: 2 0 auto;
+    padding: 10px;
+}
+
+.grid-item2 {
+    flex: 1 0 auto;
+    padding: 10px;
+
+.grid-item3 {
+    flex: 1 0 auto;
+    padding: 10px;
+
+.grid-item4 {
+    flex: 1 0 auto;
+    padding: 10px;
+}
+
+.grid-item5 {
+    flex: 1 0 auto;
+    padding: 10px;
+}
+
