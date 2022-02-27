@@ -2,6 +2,7 @@
 /* Sets main body attributes */
 .body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
 }
 
 .header {
@@ -23,13 +24,12 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 /* styles nav links */
 .header h1 nav {
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
 }    
 
 /* Removes bullets from nav link list */
@@ -52,67 +52,111 @@ nav a {
 
 /* Set h2 font size */
 h2 {
-    font-size: 300%;
+    font-size: 250%;
 }
-
-/* Set h3 text position
-h3 {
-    position: absolute;
-    bottom: 20px;
-    left: 16px;
-    font-size: 20px;
-} */
 
 img {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
+/* flex container about me */
 .about-me {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 50px   
+    gap: 50px
+    position: relative;
+    padding: 25px;
 }
 
+.about-me p {
+    padding: 50px; 
+}
+
+.contact-me p {
+    padding: 50px; 
+}
+
+/* flex container work */
 .work {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     align-items: center;
     gap: 50px;
+    position: relative;
+    padding: 25px;
 }
 
+/* flex container contact me */
 .contact-me {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     gap: 50px;
+    position: relative;
+    padding: 25px;
 }
 
-.grid-item1 {
-    flex: 2 0 auto;
-    padding: 10px;
+/* Set h3 text position */
+.text-position {
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    font-size: 30px;
+    background-color: rgb(0, 162, 255);
+    color: aliceblue;
+    bord
 }
 
-.grid-item2 {
-    flex: 1 0 auto;
-    padding: 10px;
-
-.grid-item3 {
-    flex: 1 0 auto;
-    padding: 10px;
-
-.grid-item4 {
-    flex: 1 0 auto;
-    padding: 10px;
+.box {
+    border: 3px solid rgb(0, 162, 255);
+    max-width: 300px;
+    max-height: 300px;
 }
 
-.grid-item5 {
-    flex: 1 0 auto;
+.item1 {
+    flex: 1;
     padding: 10px;
+    position: relative;
+}
+
+.item2 {
+    flex:1;
+    padding: 10px;
+    position: relative;
+}
+
+.item3 {
+    flex: 1;
+    padding: 10px;
+    position: relative;
+}
+
+.item4 {
+    flex: 1;
+    padding: 10px;
+    position: relative;
+}
+
+.item5 {
+    flex: 1;
+    padding: 10px;
+    position: relative;
+}
+
+
+@media screen and (max-width: 768px) {
+    /* stack contents at smaller screensize */
+    header,
+    main,
+    nav,
+    footer {
+      flex-direction: column;
+    }  
 }
 
