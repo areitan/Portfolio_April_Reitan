@@ -24,7 +24,6 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    
 }
 
 /* styles nav links */
@@ -50,12 +49,18 @@ nav a {
     color: white;
 }
 
+/* On hover over nav links background changes */
+nav a:hover {
+    background-color: rgb(0, 162, 255);
+  }
+
 /* Set h2 font size */
 h2 {
     font-size: 250%;
 }
 
-img {
+/* Controls header img size */
+.header img {
     max-width: 300px;
     max-height: 300px;
 }
@@ -71,24 +76,34 @@ img {
     padding: 25px;
 }
 
+/* about-me p styling */
 .about-me p {
     padding: 50px; 
 }
 
-.contact-me p {
-    padding: 50px; 
-}
-
 /* flex container work */
-.work {
+.work { 
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    justify-content: flex-end;
+    align-items: stretch;
     flex-wrap: wrap;
-    align-items: center;
-    gap: 50px;
+    gap: 25px;
     position: relative;
     padding: 25px;
+}
+
+/* Controls work h2 position */
+.work h2 {
+    flex-basis: 510px;
+    align-self: flex-start;
+    align-items: flex-start;  
+}
+
+/* Controls work img size */
+.work img {
+    max-width: 420px;
+    max-height: 420px;
 }
 
 /* flex container contact me */
@@ -102,6 +117,11 @@ img {
     padding: 25px;
 }
 
+/* contact-me p styling */
+.contact-me p {
+    padding: 50px; 
+}
+
 /* Set h3 text position */
 .text-position {
     position: absolute;
@@ -113,38 +133,59 @@ img {
     bord
 }
 
+/* Adds box around repo text */
 .box {
     border: 3px solid rgb(0, 162, 255);
     max-width: 300px;
     max-height: 300px;
 }
 
+/* Adds box around repo links */
+.box-item {
+    border: 3px solid rgb(0, 162, 255);
+}
+
+/* On hover over repo box background changes */
+.box-item:hover {
+    border: 10px solid rgb(1, 59, 92);
+    background-color: rgb(0, 162, 255);
+    padding: 10px;
+  }
+
+/* Positioning and styling item1 */
 .item1 {
-    flex: 1;
+    flex-basis: 1200px;
+    align-self: flex-start;
+    align-items: stretch;
     padding: 10px;
+    margin: 0;
     position: relative;
 }
 
+/* Positioning and styling item2 */
 .item2 {
-    flex:1;
+    
     padding: 10px;
     position: relative;
 }
 
+/* Positioning and styling item3 */
 .item3 {
-    flex: 1;
+    /* flex: 1; */
     padding: 10px;
     position: relative;
 }
 
+/* Positioning and styling item4 */
 .item4 {
-    flex: 1;
+    /* flex: 1; */
     padding: 10px;
     position: relative;
 }
 
+/* Positioning and styling item5 */
 .item5 {
-    flex: 1;
+    /* flex: 1; */
     padding: 10px;
     position: relative;
 }
@@ -155,7 +196,7 @@ img {
     header,
     main,
     nav,
-    footer {
+    .contact-me {
       flex-direction: column;
     }  
 }
