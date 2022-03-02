@@ -18,8 +18,8 @@ Screenshot of Deployed Portfolio Website
 
 After creating a GitHub repository for this project, I drew out a sketch on paper of how I needed the layout to look to match the example. Then I started creating an HTML file. I thought about the pieces that were needed to recreate the same layout as the example picture. I started with the biggest blocks and worked my way down to the details. Then I worked through styling in the CSS for layout, color scheme and effects. See the links to my repository and the portfolio website below.
 
-- [Git Hub Repository](https://github.com/areitan/Portfolio_April_Reitan)
-- [Portfolio Website](https://areitan.github.io/SemanticMarkup/)
+- [April Reitan's Portfolio Git Hub Repository](https://github.com/areitan/Portfolio_April_Reitan)
+- [April Reitan's Portfolio Website](https://areitan.github.io/Portfolio_April_Reitan/)
 
 
 ### Wireframing
