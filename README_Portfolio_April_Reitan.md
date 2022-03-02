@@ -11,7 +11,7 @@ Example Screenshot
 
 Screenshot of Deployed Portfolio Website
 
-![Portfolio of April Reitan](/assets/images/Original_Wesite_Display.png)
+![Portfolio of April Reitan](/assets/images/Portfolio_April_Reitan_Pic.png)
 
 
 ## Process
@@ -65,6 +65,7 @@ In order to create this website, I used the skills I have at the moment. I am op
 - [W3 Schools: HTML Links](https://www.w3schools.com/html/html_links.asp)
 - Trilogy Education Services, LLC for the example .gif
 - Travis Bates, a classmate, who shared a screenshot of the .gif example
+- Chris Baird, my tutor, helped me smooth out the rough edges.
 
 
 
