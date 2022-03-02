@@ -10,6 +10,7 @@
     margin: 25px;
 }
 
+/* Sets header attributes */
 .header {
     width: 100%;
     height: 20%;
@@ -101,6 +102,7 @@ h2 {
     align-items: flex-start;  
 }
 
+/* Controls work photo links layout */
 .grid {
     display: flex;
     gap: 25px;
@@ -174,6 +176,7 @@ h2 {
     position: relative;
 }
 
+/* item1 only display */
 .big {
     display: block;
     width: 100%;
