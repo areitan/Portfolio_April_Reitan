@@ -1,4 +1,9 @@
-
+/* Sets variables */
+:root {
+    --background-color: rgb(0, 162, 255);
+    --white: #fff;
+    --pad: 25px;
+}
 /* Sets main body attributes */
 .body {
     font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +16,7 @@
     background-image: url("../images/pexels-rovenimagescom-949587.jpg");
     background-size: cover;
     background-position: center;
-    color: white;
+    color: var(--white);
     font-weight: bold;
     display: flex;
     flex-direction: row;
@@ -46,51 +51,47 @@ nav {
 nav a {
     text-decoration: underline;
     font-size: 25px;
-    color: white;
+    color: var(--white);
 }
 
 /* On hover over nav links background changes */
 nav a:hover {
-    background-color: rgb(0, 162, 255);
+    background-color: var(--background-color);
   }
 
 /* Set h2 font size */
 h2 {
-    font-size: 250%;
+    font-size: 200%;
+}
+
+.paragraph {
+    margin-left: 15%;
 }
 
 /* Controls header img size */
 .header img {
     max-width: 300px;
-    max-height: 300px;
 }
 
 /* flex container about me */
 .about-me {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 50px
+    justify-content: space-between;
+    align-items: space-between;
     position: relative;
-    padding: 25px;
-}
-
-/* about-me p styling */
-.about-me p {
-    padding: 50px; 
+    padding: var(--pad);
 }
 
 /* flex container work */
 .work { 
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: stretch;
-    flex-wrap: wrap;
-    gap: 25px;
+    justify-content: space-between;
+    align-items: space-between;
+    gap: 50px;
     position: relative;
-    padding: 25px;
+    padding: var(--pad);
 }
 
 /* Controls work h2 position */
@@ -100,27 +101,44 @@ h2 {
     align-items: flex-start;  
 }
 
+.grid {
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 /* Controls work img size */
 .work img {
-    max-width: 420px;
-    max-height: 420px;
+    max-height: 350px;
 }
 
 /* flex container contact me */
 .contact-me {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 50px;
+    justify-content: space-between;
+    align-items: space-between;
     position: relative;
-    padding: 25px;
+    padding: var(--pad);
 }
 
-/* contact-me p styling */
-.contact-me p {
-    padding: 50px; 
+/* styles contact me */
+.contact-me a {
+    text-decoration: underline;
+    font-size: 25px;
+    justify-content: space-between;
+    align-items: space-between;
+    color: var(--background-color);
 }
+
+/* On hover over nav links background changes */
+.contact-me a:hover {
+    display: inline-block;
+    background-color: var(--background-color);
+    color: var(--white);
+    padding: 3px;
+  }
 
 /* Set h3 text position */
 .text-position {
@@ -128,27 +146,20 @@ h2 {
     bottom: 20px;
     left: 16px;
     font-size: 30px;
-    background-color: rgb(0, 162, 255);
-    color: aliceblue;
-    bord
-}
-
-/* Adds box around repo text */
-.box {
-    border: 3px solid rgb(0, 162, 255);
-    max-width: 300px;
-    max-height: 300px;
+    border: 3px solid var(--background-color);
+    background-color: var(--background-color);
+    color: var(--white);
 }
 
 /* Adds box around repo links */
 .box-item {
-    border: 3px solid rgb(0, 162, 255);
+    border: 3px solid var(--background-color);
 }
 
 /* On hover over repo box background changes */
 .box-item:hover {
     border: 10px solid rgb(1, 59, 92);
-    background-color: rgb(0, 162, 255);
+    background-color: var(--background-color);
     padding: 10px;
   }
 
@@ -157,47 +168,37 @@ h2 {
     flex-basis: 1200px;
     align-self: flex-start;
     align-items: stretch;
+    max-width: 800px;
     padding: 10px;
     margin: 0;
     position: relative;
 }
 
-/* Positioning and styling item2 */
-.item2 {
-    
+.big {
+    display: block;
+    width: 100%;
+}
+
+/* Positioning and styling item2, item3, item4, item5 */
+.item2, .item3, .item4, .item5 {
     padding: 10px;
     position: relative;
 }
 
-/* Positioning and styling item3 */
-.item3 {
-    /* flex: 1; */
-    padding: 10px;
-    position: relative;
-}
-
-/* Positioning and styling item4 */
-.item4 {
-    /* flex: 1; */
-    padding: 10px;
-    position: relative;
-}
-
-/* Positioning and styling item5 */
-.item5 {
-    /* flex: 1; */
-    padding: 10px;
-    position: relative;
-}
-
-
+/* adjust display for smaller screensize */
 @media screen and (max-width: 768px) {
-    /* stack contents at smaller screensize */
-    header,
+    .header,
+    .header nav,
     main,
     nav,
     .contact-me {
       flex-direction: column;
-    }  
-}
+      font-size: 16px;
+      justify-content: center;
+      align-items: center;
+    }
 
+    img {
+        max-width: 250px;
+       }
+}
