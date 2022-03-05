@@ -31,12 +31,15 @@ After creating a GitHub repository for this project, I drew out a sketch on pape
 
 1. I started a generic HTML document with DOCTYPE, HTML, head, and body.
 2. I started by adding ```<meta>``` tags to the header for language and viewport size and a ```<link>``` to my style sheet "style.css".
-3. In the body, I added a ```<header>``` tag with internal ```<na>``` links to the sections in the page, a heading, a background picture, and a picture of myself. 
-4. I added a ```main``` tag for the main content of the page where I added 2 sections (About me and Work) and a footer for my contact info.
-5. To the About Me section, I added an ```<h2>``` header and some text to tell about myself. 
-6. To the Work section, I added an ```<h2>``` header used an ```<a>``` tag combined with an ```<img>``` tag to make images that are links to my repositories. Since I only have 2 as of the end of this project, the other links are to music to enjoy while you wait for my next projects.
-7. I added text to use as titles for the picture links.
-8. To the Contact Me footer, I added an ```<h2>``` header and some text and links to my email and GitHub profile.
+3. In the body, I added a ```<header>``` tag with internal ```<nav>``` links to the sections in the page. 
+4. I gave the webpage a descriptive ```title```.
+5. I also added a heading, a background picture, and a picture of myself to the ```header```. 
+6. I added a ```main``` tag for the main content of the page where I added 2 sections (About me and Work) and a footer for my contact info.
+7. To the About Me section, I added an ```<h2>``` header and some text to tell about myself. 
+8. To the Work section, I added an ```<h2>``` header used an ```<a>``` tag combined with an ```<img>``` tag to make images that are links to my repositories. 
+9. Since I only have 2 projects as of the end of this project, the other links are to music to enjoy while you wait for my next projects.
+10. I added text to use as titles for the picture links.
+11. To the Contact Me footer, I added an ```<h2>``` header and some text and links to my email and GitHub profile.
 
 
 ### style.css
@@ -48,9 +51,8 @@ After creating a GitHub repository for this project, I drew out a sketch on pape
 5. Within the work section, I added a class I called grid to control the layout of the links to my work.
 6. I gave the first work link an image that is larger than the others.
 7. I added positioning and styling in order to place text from the HTML as a title or caption on top of the images which are links to my work.
-6. I styled the first application image to be larger than the others.
-7. I added a media query at the end of the style.css file so that the page will display differently for different screen sizes.
-8. I added a pseudo-class ```:hover``` selector to my links and images in my work and contact me sections to add a border and/or change the background color when the cursor hovers over them. 
+8. I added a media query at the end of the style.css file so that the page will display differently for different screen sizes.
+9. I added a pseudo-class ```:hover``` selector to my links and images in my work and contact me sections to add a border and/or change the background color when the cursor hovers over them. 
 
 
 ## How To Contribute
@@ -65,6 +67,7 @@ In order to create this website, I used the skills I have at the moment. I am op
 - [MDN Web Docs: Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 - [MDN Web Docs: Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 - [W3 Schools: HTML Links](https://www.w3schools.com/html/html_links.asp)
+- [Pexels stock photos](https://www.pexels.com/)
 - Trilogy Education Services, LLC for the example .gif
 - Travis Bates, a classmate, who shared a screenshot of the .gif example
 - Chris Baird, my tutor, helped me smooth out the rough edges.
