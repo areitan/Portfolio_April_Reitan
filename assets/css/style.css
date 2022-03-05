@@ -63,10 +63,7 @@ nav a:hover {
 /* Set h2 font size */
 h2 {
     font-size: 200%;
-}
-
-.paragraph {
-    margin-left: 15%;
+    flex-basis: 25%;
 }
 
 /* Controls header img size */
@@ -84,6 +81,10 @@ h2 {
     padding: var(--pad);
 }
 
+.paragraph {
+    margin-left: 10%;
+}
+
 /* flex container work */
 .work { 
     display: flex;
@@ -97,14 +98,15 @@ h2 {
 
 /* Controls work h2 position */
 .work h2 {
-    flex-basis: 510px;
+    flex-basis: 25%;
     align-self: flex-start;
     align-items: flex-start;  
 }
 
 /* Controls work photo links layout */
-.grid {
+.pic-grid {
     display: flex;
+    flex-basis: 100%;
     gap: 25px;
     flex-direction: row;
     flex-wrap: wrap;
@@ -121,16 +123,20 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     align-items: space-between;
-    position: relative;
     padding: var(--pad);
+}
+
+/* Controls contact-me h2 position */
+.contact-me h2 {
+    flex-basis: 25%;
+    align-items: flex-start;  
 }
 
 /* styles contact me */
 .contact-me a {
     text-decoration: underline;
     font-size: 25px;
-    justify-content: space-between;
-    align-items: space-between;
+    justify-content: space-evenly;
     color: var(--background-color);
 }
 

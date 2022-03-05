@@ -48,7 +48,7 @@ After creating a GitHub repository for this project, I drew out a sketch on pape
 2. I styled the header with a background image and used flex box to determine how the section should layout.
 3. I added a media query at the end of the file so the website would display properly on different screen sizes.
 4. I added styling and flex for the about-me, work, and contact-me classes. All three of these classes have the same styling for consistency.
-5. Within the work section, I added a class I called grid to control the layout of the links to my work.
+5. Within the work section, I added a class I called pic-grid to control the layout of the links to my work.
 6. I gave the first work link an image that is larger than the others.
 7. I added positioning and styling in order to place text from the HTML as a title or caption on top of the images which are links to my work.
 8. I added a media query at the end of the style.css file so that the page will display differently for different screen sizes.
