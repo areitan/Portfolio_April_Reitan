@@ -92,10 +92,13 @@ SOFTWARE.
 - [MDN Web Docs: Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 - [W3 Schools: HTML Links](https://www.w3schools.com/html/html_links.asp)
 - [W3 Schools: How TO Download Button](https://www.w3schools.com/howto/howto_css_download_button.asp)
+- [W3 Schools: CSS Radial Gradients](https://www.w3schools.com/css/css3_gradients_radial.asp)
 - [Pexels stock photos](https://www.pexels.com/)
 - Trilogy Education Services, LLC for the example .gif
 - Travis Bates, a classmate, who shared a screenshot of the .gif example
 - Chris Baird, my tutor, helped me smooth out the rough edges.
+
+
 
 
 
