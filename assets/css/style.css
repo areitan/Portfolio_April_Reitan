@@ -85,8 +85,9 @@ h2 {
 }
 
 .paragraph {
-    margin-left: 10%;
+    margin-left: 13%;
     color: rgb(5, 5, 56);
+    font-size: 20px;
 }
 
 /* flex container work */
@@ -135,6 +136,7 @@ h2 {
 /* Controls contact-me h2 position */
 .contact-me h2 {
     flex-basis: 25%;
+    align-self: flex-start;
     align-items: flex-start;  
 }
 
