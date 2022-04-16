@@ -1,14 +1,16 @@
 /* Sets variables */
 :root {
     --background-color: rgb(0, 162, 255);
-    --white: #fff;
+    --white: rgb(188, 239, 248);
     --pad: 25px;
+    --color: rgb(5, 5, 56);
 }
 /* Sets main body attributes */
 .body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 25px;
-}
+    background-image: radial-gradient(circle, rgb(50, 53, 190), rgb(32, 99, 138), rgb(238, 244, 248));
+    }
 
 /* Sets header attributes */
 .header {
@@ -79,10 +81,12 @@ h2 {
     align-items: space-between;
     position: relative;
     padding: var(--pad);
+    color: var(--color);
 }
 
 .paragraph {
     margin-left: 10%;
+    color: rgb(5, 5, 56);
 }
 
 /* flex container work */
@@ -94,6 +98,7 @@ h2 {
     gap: 50px;
     position: relative;
     padding: var(--pad);
+    color: var(--color);
 }
 
 /* Controls work h2 position */
@@ -124,6 +129,7 @@ h2 {
     justify-content: space-between;
     align-items: space-between;
     padding: var(--pad);
+    color: var(--color);
 }
 
 /* Controls contact-me h2 position */
@@ -137,7 +143,7 @@ h2 {
     text-decoration: underline;
     font-size: 25px;
     justify-content: space-evenly;
-    color: var(--background-color);
+    color: var(--color);
 }
 
 /* On hover over nav links background changes */

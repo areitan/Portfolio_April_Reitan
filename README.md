@@ -1,4 +1,4 @@
-# Portfolio_April_Reitan
+# Portfolio: April Reitan
 
 
 ## Description
@@ -60,6 +60,30 @@ After creating a GitHub repository for this project, I drew out a sketch on pape
 In order to create this website, I used the skills I have at the moment. I am open to suggestions, if there are ways to streamline the code.
 
 
+## License
+
+Copyright (c) ```<2022> <copyright April Reitan>```
+
+MIT License:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
 ## Credits
 
 - [Net Ninja: CSS Flexbox Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG)
@@ -67,6 +91,7 @@ In order to create this website, I used the skills I have at the moment. I am op
 - [MDN Web Docs: Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 - [MDN Web Docs: Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 - [W3 Schools: HTML Links](https://www.w3schools.com/html/html_links.asp)
+- [W3 Schools: How TO Download Button](https://www.w3schools.com/howto/howto_css_download_button.asp)
 - [Pexels stock photos](https://www.pexels.com/)
 - Trilogy Education Services, LLC for the example .gif
 - Travis Bates, a classmate, who shared a screenshot of the .gif example
