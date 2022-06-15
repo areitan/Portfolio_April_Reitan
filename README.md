@@ -1,9 +1,38 @@
 # Portfolio: April Reitan
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+---
 ## Description
 
-The task was to create a deployed portfolio website for my work that scales for different media screen sizes. This included creating an HTML file and a CSS file with no beginning code. I had a .gif file to work from with a suggested layout. Please see the example screenshot and my website screenshot below.
+This is an updated portfolio website for my work that scales for different media screen sizes. This included creating an HTML file and a CSS file with no beginning code. I had a .gif file to work from with a suggested layout. Please see the example screenshot and my website screenshot below.
+
+
+---
+## Table of Contents
+
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Tests](#Tests)
+  - [Contribute](#contribute)
+  - [Credits](#credits)
+  - [License](#license)
+
+
+---
+## Installation
+
+Click on the website link below to launch the site.
+
+- [April Reitan's Portfolio Website](https://areitan.github.io/Portfolio_April_Reitan/)
+- [April Reitan's Portfolio Git Hub Repository](https://github.com/areitan/Portfolio_April_Reitan)
+
+
+---
+## Usage
+
+After creating a GitHub repository for this project, I drew out a sketch on paper of how the layout should look to look to match the example. Then I started creating an index.html file. I tried to break the example website up into logical blocks--the pieces from biggest to smallest--that were needed to recreate the same layout as the example picture. I started with the biggest blocks and worked my way down to the details. Then I worked through styling in the my style.css for layout, color scheme, and effects. See the links to my repository and the portfolio website below.
+
 
 Example Screenshot from .gif layout
 
@@ -12,14 +41,6 @@ Example Screenshot from .gif layout
 Screenshot of Deployed Portfolio Website
 
 ![Portfolio of April Reitan](/assets/images/Portfolio_April_Reitan_Pic.png)
-
-
-## Process
-
-After creating a GitHub repository for this project, I drew out a sketch on paper of how the layout should look to look to match the example. Then I started creating an index.html file. I tried to break the example website up into logical blocks--the pieces from biggest to smallest--that were needed to recreate the same layout as the example picture. I started with the biggest blocks and worked my way down to the details. Then I worked through styling in the my style.css for layout, color scheme, and effects. See the links to my repository and the portfolio website below.
-
-- [April Reitan's Portfolio Git Hub Repository](https://github.com/areitan/Portfolio_April_Reitan)
-- [April Reitan's Portfolio Website](https://areitan.github.io/Portfolio_April_Reitan/)
 
 
 ### Wireframing
@@ -55,10 +76,37 @@ After creating a GitHub repository for this project, I drew out a sketch on pape
 9. I added a pseudo-class ```:hover``` selector to my links and images in my work and contact me sections to add a border and/or change the background color when the cursor hovers over them. 
 
 
-## How To Contribute
+---
+## Tests
+
+This application was tested by running it in a browser and testing for scalability for different media screen sizes
+
+
+--- 
+## Contribute
 
 In order to create this website, I used the skills I have at the moment. I am open to suggestions, if there are ways to streamline the code.
 
+---
+## Credits
+
+- [Net Ninja: CSS Flexbox Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG)
+- [Mastery Games: Flexbox Zombies](https://mastery.games/flexboxzombies/)
+- [MDN Web Docs: Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+- [MDN Web Docs: Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+- [W3 Schools: HTML Links](https://www.w3schools.com/html/html_links.asp)
+- [W3 Schools: How TO Download Button](https://www.w3schools.com/howto/howto_css_download_button.asp)
+- [W3 Schools: CSS Radial Gradients](https://www.w3schools.com/css/css3_gradients_radial.asp)
+- [Pexels stock photos](https://www.pexels.com/)
+- Trilogy Education Services, LLC for the example .gif
+- Travis Bates, a classmate, who shared a screenshot of the .gif example
+- Chris Baird, my tutor, helped me smooth out the rough edges.
+
+### Questions
+
+For any question, please contact me on GitHub at: [areitan](https://github.com/areitan) or by email at <areitan@fredhutch.org>.
+
+---
 
 ## License
 
@@ -82,25 +130,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-## Credits
-
-- [Net Ninja: CSS Flexbox Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG)
-- [Mastery Games: Flexbox Zombies](https://mastery.games/flexboxzombies/)
-- [MDN Web Docs: Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
-- [MDN Web Docs: Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
-- [W3 Schools: HTML Links](https://www.w3schools.com/html/html_links.asp)
-- [W3 Schools: How TO Download Button](https://www.w3schools.com/howto/howto_css_download_button.asp)
-- [W3 Schools: CSS Radial Gradients](https://www.w3schools.com/css/css3_gradients_radial.asp)
-- [Pexels stock photos](https://www.pexels.com/)
-- Trilogy Education Services, LLC for the example .gif
-- Travis Bates, a classmate, who shared a screenshot of the .gif example
-- Chris Baird, my tutor, helped me smooth out the rough edges.
-
-
-
-
-
-
-
