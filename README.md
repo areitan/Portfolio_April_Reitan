@@ -7,6 +7,13 @@
 
 This is an updated portfolio website for my work that scales for different media screen sizes. This included creating an HTML file and a CSS file with no beginning code. I had a .gif file to work from with a suggested layout. Please see the example screenshot and my website screenshot below.
 
+### Example Screenshot from .gif layout
+
+![Example Portfolio Website](/assets/images/portfolio_example.png)
+
+### Screenshot of Deployed Portfolio Website
+
+![Portfolio of April Reitan](/assets/images/Portfolio_April_Reitan_Pic.png)
 
 ---
 ## Table of Contents
@@ -34,21 +41,12 @@ Click on the website link below to launch the site.
 After creating a GitHub repository for this project, I drew out a sketch on paper of how the layout should look to look to match the example. Then I started creating an index.html file. I tried to break the example website up into logical blocks--the pieces from biggest to smallest--that were needed to recreate the same layout as the example picture. I started with the biggest blocks and worked my way down to the details. Then I worked through styling in the my style.css for layout, color scheme, and effects. See the links to my repository and the portfolio website below.
 
 
-Example Screenshot from .gif layout
-
-![Example Portfolio Website](/assets/images/portfolio_example.png)
-
-Screenshot of Deployed Portfolio Website
-
-![Portfolio of April Reitan](/assets/images/Portfolio_April_Reitan_Pic.png)
-
 
 ### Wireframing
 
 1. I used pencil and paper to make a sketch of the website layout to determine the best way, using the tools I have a the moment, to acheive a similar layout to the example.
 
 
-### index.html
 
 1. I started a generic HTML document with DOCTYPE, HTML, head, and body.
 2. I started by adding ```<meta>``` tags to the header for language and viewport size and a ```<link>``` to my style sheet "style.css".
@@ -61,10 +59,6 @@ Screenshot of Deployed Portfolio Website
 9. Since I only have 2 projects as of the end of this project, the other links are to music to enjoy while you wait for my next projects.
 10. I added text to use as titles for the picture links.
 11. To the Contact Me footer, I added an ```<h2>``` header and some text and links to my email and GitHub profile.
-
-
-### style.css
-
 1. I added variables for common properties to make managing some of the styling easier.
 2. I styled the header with a background image and used flex box to determine how the section should layout.
 3. I added a media query at the end of the file so the website would display properly on different screen sizes.
