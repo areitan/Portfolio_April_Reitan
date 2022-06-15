@@ -14,7 +14,7 @@ This is an updated portfolio website of some of my projects. Technologies used i
 
 ### Screenshot of Deployed Portfolio Website
 
-![Portfolio of April Reitan](/assets/images/Portfolio_April_Reitan_Pic.png)
+![Portfolio of April Reitan](/assets/images/Portfolio_April_Reitan_Pic_New.png)
 
 ---
 ## Table of Contents
